@@ -25,7 +25,7 @@ if not environ.get('PYTHONHTTPSVERIFY', "") and getattr(ssl, '_create_unverified
     ssl._create_default_https_context = ssl._create_unverified_context
 
 #simple_informant.check_permissions()
-simple_informant.verify_connection()
+#simple_informant.verify_connection()
 # verCheck() # For now it's useless, i'll rewrite it later, after release.
 simple_informant.check_php()
 #checkLocalxpose()
